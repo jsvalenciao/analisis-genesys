@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis Extendido Genesys Cloud: CX 3 vs CX 4</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Lato', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        corporate: {
+                            blue: '#0f172a', /* Slate 900 */
+                            lightBlue: '#0284c7', /* Sky 600 */
+                            orange: '#ea580c', /* Orange 600 */
+                            bg: '#f8fafc',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(90deg, #0284c7 0%, #0ea5e9 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bg-pattern {
+            background-color: #0f172a;
+            background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+    </style>
+</head>
+<body class="bg-slate-100 p-4 md:p-8 flex justify-center items-center min-h-screen">
+
+    <div class="max-w-7xl w-full bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col border border-slate-200">
+        
+        <!-- Header -->
+        <header class="bg-pattern text-white p-8 lg:p-10 relative overflow-hidden">
+            <div class="relative z-10 flex flex-col md:flex-row justify-between items-center gap-6">
+                <div>
+                    <h1 class="font-heading text-3xl md:text-5xl mb-2">Evaluación del Core Tecnológico</h1>
+                    <h2 class="text-xl md:text-2xl text-slate-300 font-light">Análisis Comparativo Oficial: Genesys Cloud <span class="font-bold text-white">CX 3</span> vs <span class="font-bold text-sky-400">CX 4</span></h2>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm border border-white/20 px-6 py-3 rounded-xl text-center shadow-lg">
+                    <p class="text-xs text-slate-300 uppercase tracking-wide font-bold mb-1">Estado Actual Bolívar</p>
+                    <p class="text-xl font-heading text-white">Licencia CX 3</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Grid -->
+        <div class="p-6 md:p-10 flex-grow">
+            
+            <!-- Context -->
+            <div class="mb-8 text-center max-w-5xl mx-auto bg-slate-50 p-6 rounded-xl border border-slate-200">
+                <p class="text-lg text-slate-700 leading-relaxed">
+                    La evaluación confirma que <strong>Genesys Cloud es la herramienta correcta</strong>. La diferencia entre versiones no es un cambio de plataforma física, sino el paso hacia un <strong class="text-corporate-blue">modelo predecible de Inteligencia Artificial Nativa</strong>. CX 4 resuelve el dolor de los cobros variables por consumo, desbloqueando capacidades que impactan directamente la eficiencia y el TMO.
+                </p>
+            </div>
+
+            <!-- Comparison Table (Robust) -->
+            <div class="mb-10 overflow-x-auto rounded-xl border border-slate-300 shadow-sm">
+                <table class="w-full text-left border-collapse min-w-[800px]">
+                    <thead>
+                        <tr>
+                            <th class="bg-slate-100 p-4 border-b-2 border-slate-300 w-1/3">
+                                <span class="text-slate-600 uppercase tracking-wider text-sm font-extrabold"><i class="fas fa-list-ul mr-2"></i> Criterio Técnico / Funcional</span>
+                            </th>
+                            <th class="bg-white p-4 border-b-2 border-slate-300 w-1/3 text-center border-l border-slate-200">
+                                <div class="font-heading text-2xl text-slate-700">Genesys CX 3</div>
+                                <div class="text-xs text-slate-500 font-bold uppercase mt-1">Línea Base Actual</div>
+                            </th>
+                            <th class="bg-sky-50 p-4 border-b-2 border-sky-200 w-1/3 text-center border-l-2 border-sky-300 relative overflow-hidden">
+                                <div class="absolute top-0 right-0 bg-sky-500 text-white text-[10px] font-bold uppercase py-1 px-3 rounded-bl-lg">Evolución IA</div>
+                                <div class="font-heading text-2xl text-corporate-lightBlue">Genesys CX 4</div>
+                                <div class="text-xs text-sky-700 font-bold uppercase mt-1">AI Experience (Tope de Gama)</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-slate-700 text-sm">
+                        <!-- Criterio 1: Omnicanalidad -->
+                        <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                            <td class="p-4">
+                                <strong class="text-slate-900 block text-base">Ruteo Core y Canales Digitales</strong>
+                                <span class="text-slate-500 text-xs">Voz Inbound/Outbound, Chat, Email, SMS, WhatsApp y Web Messaging.</span>
+                            </td>
+                            <td class="p-4 text-center border-l border-slate-200">
+                                <i class="fas fa-check-circle text-green-500 text-lg mb-1"></i><br>
+                                <span class="font-semibold text-slate-700">Incluido Nativamente</span>
+                            </td>
+                            <td class="p-4 text-center border-l-2 border-sky-100 bg-sky-50/20">
+                                <i class="fas fa-check-circle text-green-500 text-lg mb-1"></i><br>
+                                <span class="font-semibold text-sky-800">Incluido (Hereda de CX3)</span>
+                            </td>
+                        </tr>
+
+                        <!-- Criterio 2: WEM -->
+                        <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                            <td class="p-4">
+                                <strong class="text-slate-900 block text-base">Workforce Engagement (WEM)</strong>
+                                <span class="text-slate-500 text-xs">Malla de turnos, Gestión de Calidad (QM), Grabación Voz/Pantalla, Gamificación.</span>
+                            </td>
+                            <td class="p-4 text-center border-l border-slate-200">
+                                <i class="fas fa-check-circle text-green-500 text-lg mb-1"></i><br>
+                                <span class="font-semibold text-slate-700">Incluido</span><br>
+                                <span class="text-xs text-orange-500 italic">(Actualmente Subutilizado)</span>
+                            </td>
+                            <td class="p-4 text-center border-l-2 border-sky-100 bg-sky-50/20">
+                                <i class="fas fa-check-circle text-green-500 text-lg mb-1"></i><br>
+                                <span class="font-semibold text-sky-800">Incluido</span>
+                            </td>
+                        </tr>
+
+                        <!-- Criterio 3: Journey -->
+                        <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                            <td class="p-4">
+                                <strong class="text-slate-900 block text-base"><i class="fas fa-route text-indigo-500 mr-2"></i>Journey Management</strong>
+                                <span class="text-slate-500 text-xs">Orquestación del viaje. Visibilidad de navegación web/App previa a la llamada.</span>
+                            </td>
+                            <td class="p-4 text-center border-l border-slate-200">
+                                <i class="fas fa-minus text-slate-400 text-lg mb-1"></i><br>
+                                <span class="text-slate-500">Básico / Silos de información</span>
+                            </td>
+                            <td class="p-4 text-center border-l-2 border-sky-100 bg-sky-50/20">
+                                <i class="fas fa-check-circle text-corporate-lightBlue text-lg mb-1"></i><br>
+                                <span class="font-bold text-sky-700">Incluido Nativamente</span><br>
+                                <span class="text-xs text-sky-600">(Evita repetición de datos)</span>
+                            </td>
+                        </tr>
+
+                        <!-- Criterio 4: Copilot -->
+                        <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                            <td class="p-4">
+                                <strong class="text-slate-900 block text-base"><i class="fas fa-robot text-orange-500 mr-2"></i>Agent Copilot (IA Tiempo Real)</strong>
+                                <span class="text-slate-500 text-xs">Asistente IA que escucha y sugiere respuestas y acciones durante la interacción.</span>
+                            </td>
+                            <td class="p-4 text-center border-l border-slate-200">
+                                <i class="fas fa-times-circle text-red-400 text-lg mb-1"></i><br>
+                                <span class="text-slate-500">Requiere desarrollo y pagos extra</span>
+                            </td>
+                            <td class="p-4 text-center border-l-2 border-sky-100 bg-sky-50/20">
+                                <i class="fas fa-check-circle text-corporate-lightBlue text-lg mb-1"></i><br>
+                                <span class="font-bold text-sky-700">Incluido Nativamente</span>
+                            </td>
+                        </tr>
+
+                        <!-- Criterio 5: Knowledge -->
+                        <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                            <td class="p-4">
+                                <strong class="text-slate-900 block text-base"><i class="fas fa-book-reader text-teal-500 mr-2"></i>Superficie de Conocimiento Automática</strong>
+                                <span class="text-slate-500 text-xs">Muestra artículos de la base de conocimiento según el contexto de la llamada.</span>
+                            </td>
+                            <td class="p-4 text-center border-l border-slate-200">
+                                <i class="fas fa-search text-slate-400 text-lg mb-1"></i><br>
+                                <span class="text-slate-500">Búsqueda Manual del Agente</span>
+                            </td>
+                            <td class="p-4 text-center border-l-2 border-sky-100 bg-sky-50/20">
+                                <i class="fas fa-bolt text-corporate-lightBlue text-lg mb-1"></i><br>
+                                <span class="font-bold text-sky-700">Proactivo por IA</span>
+                            </td>
+                        </tr>
+
+                        <!-- Criterio 6: Resúmenes -->
+                        <tr class="border-b border-slate-200 hover:bg-slate-50 transition-colors">
+                            <td class="p-4">
+                                <strong class="text-slate-900 block text-base"><i class="fas fa-file-signature text-purple-500 mr-2"></i>Resúmenes Automáticos (ACW)</strong>
+                                <span class="text-slate-500 text-xs">Redacción automática de notas y tipificación al finalizar la interacción.</span>
+                            </td>
+                            <td class="p-4 text-center border-l border-slate-200">
+                                <i class="fas fa-keyboard text-slate-400 text-lg mb-1"></i><br>
+                                <span class="text-slate-500">Tipificación Manual (Aumenta TMO)</span>
+                            </td>
+                            <td class="p-4 text-center border-l-2 border-sky-100 bg-sky-50/20">
+                                <i class="fas fa-magic text-corporate-lightBlue text-lg mb-1"></i><br>
+                                <span class="font-bold text-sky-700">Redacción IA</span><br>
+                                <span class="text-xs text-green-600 font-bold">(Reduce drásticamente el TMO)</span>
+                            </td>
+                        </tr>
+
+                        <!-- Criterio 7: Tokens y Presupuesto -->
+                        <tr class="bg-slate-100">
+                            <td class="p-5 border-t-2 border-slate-300">
+                                <strong class="text-slate-900 block text-lg"><i class="fas fa-coins text-yellow-500 mr-2"></i>Modelo de Consumo IA</strong>
+                                <span class="text-slate-600 text-xs font-bold uppercase mt-1 block">El Diferenciador Financiero (Tokens)</span>
+                                <span class="text-slate-500 text-xs mt-1 block">Impacta la percepción de "Cobros Ocultos".</span>
+                            </td>
+                            <td class="p-5 text-center border-l border-t-2 border-slate-300">
+                                <div class="text-xl font-bold text-red-600 mb-1">250 Tokens / Mes (Global)</div>
+                                <span class="text-xs text-slate-700 font-medium">Pozo estático para toda la empresa.<br>El excedente dispara cobros variables ("taxímetro").</span>
+                            </td>
+                            <td class="p-5 text-center border-l-2 border-t-2 border-sky-300 bg-sky-100/60">
+                                <div class="text-xl font-bold text-sky-700 mb-1">+30 Tokens / Agente / Mes</div>
+                                <span class="text-xs text-slate-800 font-bold block">~16.000 Tokens mensuales (Base 535 pax).</span>
+                                <span class="text-xs text-sky-800 mt-1 block">Presupuesto predecible. Elimina el miedo a innovar.</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Architecture & Conclusions Block -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-4">
+                
+                <!-- Modelo de Despliegue -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                    <h3 class="font-heading text-lg text-corporate-blue mb-4 flex items-center border-b pb-2">
+                        <i class="fas fa-network-wired text-corporate-lightBlue mr-3"></i> Continuidad Arquitectónica
+                    </h3>
+                    <ul class="space-y-3 text-sm text-slate-700 mb-5">
+                        <li class="flex items-center"><i class="fas fa-cloud text-slate-400 mr-3 w-4"></i> Plataforma SaaS 100% nativa en nube.</li>
+                        <li class="flex items-center"><i class="fab fa-aws text-orange-500 mr-3 w-4"></i> Infraestructura base gestionada en AWS.</li>
+                        <li class="flex items-center"><i class="fas fa-code-branch text-slate-400 mr-3 w-4"></i> Arquitectura API-First de microservicios.</li>
+                    </ul>
+                    <div class="bg-sky-50 p-4 rounded-lg border-l-4 border-corporate-lightBlue text-sm">
+                        <strong class="text-sky-900 block mb-1"><i class="fas fa-info-circle mr-1"></i> Implicación Operativa:</strong>
+                        Ambas versiones comparten el mismo código base. Evolucionar a CX 4 <strong>NO requiere crear un nuevo Tenant/Organización, ni migrar datos históricos</strong>. Es un cambio de habilitación de licencias transparente para la operación.
+                    </div>
+                </div>
+
+                <!-- Strategic Takeaways -->
+                <div class="bg-corporate-blue p-6 rounded-xl text-white shadow-md relative overflow-hidden">
+                    <div class="absolute -right-8 -bottom-8 opacity-5 text-9xl">
+                        <i class="fas fa-chess-knight"></i>
+                    </div>
+                    <h3 class="font-heading text-lg text-white mb-4 flex items-center border-b border-white/20 pb-2 relative z-10">
+                        <i class="fas fa-compass text-yellow-400 mr-3"></i> Recomendaciones para la Decisión Final
+                    </h3>
+                    <div class="space-y-4 text-sm text-slate-200 relative z-10">
+                        <p>
+                            <strong class="text-sky-300 block mb-1">1. Mantener el Core (Genesys)</strong>
+                            El riesgo y costo de migrar de plataforma (aprox. 1 año) no se justifica. La herramienta posee todas las capacidades; el reto es la adopción.
+                        </p>
+                        <p>
+                            <strong class="text-sky-300 block mb-1">2. Claridad en la Inversión (CX 3 vs CX 4)</strong>
+                            Se debe evaluar junto a los proveedores si la operación actual justifica el salto a CX 4 para obtener previsibilidad de costos en IA y reducir drásticamente el TMO, o si se optimiza el uso del WEM ya existente en CX 3.
+                        </p>
+                        <p>
+                            <strong class="text-sky-300 block mb-1">3. El Criterio de Selección del Partner</strong>
+                            La decisión entre mantener a GNS o migrar el soporte a Interaxa/Belltech debe basarse en quién garantice el mejor modelo de <strong>Customer Success</strong>, transparencia comercial y agilidad en la resolución de incidentes.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
